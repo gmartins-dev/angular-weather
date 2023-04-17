@@ -14,7 +14,7 @@ export class WeatherComponent implements OnInit {
   pressure: number = 0;
   summary: string = '';
   iconURL: string = '';
-  city: string = 'Bristol';
+  city: string = 'Moreton-in-Marsh';
   units: string = 'metric';
   // units: string = 'imperial'
 
