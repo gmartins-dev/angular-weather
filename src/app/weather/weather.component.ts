@@ -35,8 +35,8 @@ export class WeatherComponent implements OnInit {
         this.pressure = this.myWeather.main.pressure;
         this.summary = this.myWeather.weather[0].main;
 
-        this.iconURL = 
-          ' https://openweathermap.org/img/wn/' +
+        this.iconURL =
+          'https://openweathermap.org/img/wn/' +
           this.myWeather.weather[0].icon +
           '@2x.png';
       },
